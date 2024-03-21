@@ -1,17 +1,15 @@
-# RivoliBot
+# rennes-velo-ot
 
 Compute tweets based on relevant facts of daily records of the number of cyclists passing by a counter.
-
-Example usage for the counter in rue de Rivoli in Paris: https://twitter.com/RivoliBot
 
 ## Usage
 
 ### Example
 
 ```sh
-git clone git@github.com:remidbs/rivoli-bot.git
-cd rivoli-bot
-python3 rivoli/tweet.py -i rivoli/tests/test_data/rivoli_test_data.csv -d random -o STD
+git clone git@github.com:thomas-bouvier/rennes-velo-bot.git
+cd rennes-velo-bot
+python rivoli/tweet.py -i rivoli/tests/test_data/rivoli_test_data.csv -d random -o STD
 ```
 
 ### Example output
@@ -24,8 +22,8 @@ Le 07/12/2019, il y a eu 6 896 passages de cyclistes.
 ### General usage
 
 ```
-git clone git@github.com:remidbs/rivoli-bot.git
-cd rivoli-bot
+git clone git@github.com:thomas-bouvier/rennes-velo-bot.git
+cd rennes-velo-bot
 python3 rivoli/tweet.py
 
 
